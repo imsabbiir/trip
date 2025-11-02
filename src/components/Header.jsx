@@ -15,6 +15,7 @@ export default function Header() {
     { href: "/destinations", label: "Destinations" },
     { href: "/plans", label: "Tour Plan" },
     { href: "/blogs", label: "Blog" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (
