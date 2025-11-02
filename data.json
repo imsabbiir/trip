@@ -1,0 +1,1659 @@
+[
+  {
+    "tourTitle": "3-Day Sajek Valley Tour",
+    "destination": {
+      "name": "Sajek Valley",
+      "district": "Rangamati",
+      "country": "Bangladesh",
+      "overview": "Sajek Valley, known as the 'Queen of Hills', is one of the most breathtaking destinations in Bangladesh. Located in the Rangamati district, it’s a serene escape surrounded by rolling green hills, tribal villages, and sea of clouds. The valley offers a perfect blend of natural beauty, cultural experience, and adventure.",
+      "mapCoordinates": { "lat": 23.3812, "lng": 92.2938 },
+      "mapUrl": "https://www.google.com/maps?q=23.3812,92.2938",
+      "image": "https://i.ibb.co/YPFrK2Q/sajek-sunrise.jpg"
+    },
+    "duration": {
+      "days": 3,
+      "startDate": "2025-11-10",
+      "endDate": "2025-11-12"
+    },
+    "groupDetails": {
+      "totalPeople": 6,
+      "tripType": "Friends Tour",
+      "ageGroup": "20-30 years"
+    },
+    "transportation": {
+      "from": "Dhaka",
+      "to": "Sajek Valley",
+      "mode": "Bus + Chander Gari (Jeep)",
+      "details": [
+        {
+          "segment": "Dhaka to Khagrachari",
+          "type": "AC Bus",
+          "company": "Shyamoli Paribahan",
+          "departureTime": "10:00 PM (Previous night)",
+          "arrivalTime": "6:00 AM",
+          "duration": "8 hours",
+          "ticketPrice": 1200
+        },
+        {
+          "segment": "Khagrachari to Sajek Valley",
+          "type": "Chander Gari (Local Jeep)",
+          "departureTime": "8:00 AM",
+          "arrivalTime": "11:00 AM",
+          "duration": "3 hours",
+          "ticketPrice": 600
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Meghpunji Resort",
+      "location": "Ruilui Para, Sajek Valley",
+      "checkIn": "11:30 AM",
+      "checkOut": "10:00 AM",
+      "roomType": "Double Bed Cottage",
+      "totalRooms": 3,
+      "contactNumber": "+8801777777777",
+      "amenities": ["Hot Water", "Balcony View", "Wi-Fi", "Restaurant"],
+      "image": "https://i.ibb.co/1zZ3v1K/sajek-valley-hill.jpg",
+      "mapUrl": "https://www.google.com/maps?q=23.3778,92.2884"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and Local Exploration",
+        "description": "The adventure begins as you leave Dhaka overnight, arriving in Khagrachari early in the morning. The scenic drive to Sajek through Dighinala offers breathtaking hill views. After checking into your resort, you’ll explore Konglak Para, a remote tribal village, and enjoy a sunset from the helipad viewpoint.",
+        "activities": [
+          "Arrive at Khagrachari early morning",
+          "Breakfast at local restaurant",
+          "Jeep ride to Sajek Valley via Dighinala",
+          "Check-in at resort and freshen up",
+          "Lunch at Meghpunji Resort",
+          "Visit Konglak Para (Hike 30 min)",
+          "Enjoy sunset from Helipad area",
+          "Dinner with tribal BBQ at night"
+        ],
+        "places": [
+          {
+            "name": "Konglak Para",
+            "lat": 23.3856,
+            "lng": 92.2975,
+            "image": "https://i.ibb.co/VtHvDNC/konglak-para.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.3856,92.2975"
+          },
+          {
+            "name": "Helipad Sunset Point",
+            "lat": 23.3785,
+            "lng": 92.2899,
+            "image": "https://i.ibb.co/GcbFqBt/sajek-helipad.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.3785,92.2899"
+          }
+        ],
+        "meals": {
+          "breakfast": "Local restaurant, Khagrachari",
+          "lunch": "Resort restaurant (local rice & chicken curry)",
+          "dinner": "BBQ & rice at Meghpunji Resort"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Exploring the Beauty of Sajek",
+        "description": "Spend your second day exploring tribal culture, hidden viewpoints, and natural serenity. Wake up to a breathtaking sunrise, visit the Ruilui Para tribal village, and enjoy a peaceful afternoon in nature. In the evening, take part in a cultural night under the stars.",
+        "activities": [
+          "Early morning sunrise view from Helipad",
+          "Breakfast with hill view",
+          "Visit Ruilui Para & Sajek Army Camp Viewpoint",
+          "Lunch at a tribal homestay",
+          "Afternoon rest and photography",
+          "Evening cultural show at local community hall",
+          "Dinner and stargazing"
+        ],
+        "places": [
+          {
+            "name": "Ruilui Para",
+            "lat": 23.3778,
+            "lng": 92.2884,
+            "image": "https://i.ibb.co/WxmqVWD/ruilui-para.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.3778,92.2884"
+          },
+          {
+            "name": "Sajek Army Camp Viewpoint",
+            "lat": 23.3765,
+            "lng": 92.2893,
+            "image": "https://i.ibb.co/GcbFqBt/sajek-helipad.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.3765,92.2893"
+          }
+        ],
+        "meals": {
+          "breakfast": "Resort breakfast (pancakes & coffee)",
+          "lunch": "Local homestay (vegetarian dishes)",
+          "dinner": "Resort dinner (fish curry & rice)"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Return Journey",
+        "description": "On your last day, capture the final sunrise over the valley before returning to Dhaka. Visit the Hajachora Waterfall on the way down and explore Khagrachari town before heading home.",
+        "activities": [
+          "Sunrise photography at Helipad",
+          "Breakfast and check-out",
+          "Visit Hajachora Waterfall on way down",
+          "Lunch at Khagrachari town",
+          "Shopping for bamboo crafts",
+          "Evening bus back to Dhaka"
+        ],
+        "places": [
+          {
+            "name": "Hajachora Waterfall",
+            "lat": 23.1358,
+            "lng": 92.1995,
+            "image": "https://i.ibb.co/6gJg7tC/hajachora-waterfall.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.1358,92.1995"
+          },
+          {
+            "name": "Khagrachari Town",
+            "lat": 23.1075,
+            "lng": 91.9706,
+            "image": "https://i.ibb.co/fxvr5hb/khagrachari-town.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.1075,91.9706"
+          }
+        ],
+        "meals": {
+          "breakfast": "Resort breakfast",
+          "lunch": "Local restaurant in Khagrachari",
+          "dinner": "On the way or at bus stop"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 6500,
+      "total": 39000,
+      "breakdown": {
+        "transport": 1800,
+        "accommodation": 2000,
+        "food": 1500,
+        "activities": 700,
+        "others": 500
+      }
+    },
+    "necessaryItems": [
+      "Warm clothes",
+      "Power bank",
+      "Toiletries",
+      "First aid kit",
+      "Camera or smartphone",
+      "Umbrella or raincoat",
+      "Snacks and water bottle",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": {
+        "day": "20-26°C",
+        "night": "12-18°C"
+      },
+      "forecast": "Mild and cool with light fog in the morning"
+    },
+    "emergencyContacts": {
+      "localPolice": "01550000000",
+      "hospital": "Khagrachari District Hospital",
+      "resortManager": "+8801999999999",
+      "tourGuide": "Mr. Robin, +8801788888888"
+    },
+    "notes": "Always carry your NID or Passport. Drone flying requires permission from the local army camp. Respect tribal culture and avoid littering."
+  },
+  {
+    "tourTitle": "3-Day Bandarban Hill Adventure",
+    "destination": {
+      "name": "Bandarban",
+      "district": "Bandarban",
+      "country": "Bangladesh",
+      "overview": "Bandarban is a dramatic hill district in southeastern Bangladesh, where emerald valleys, cloud-kissed peaks, and indigenous cultures combine to create one of the country's most evocative landscapes. Often called the 'Darjeeling of Bangladesh' in parts, Bandarban offers towering viewpoints such as Nilgiri and Thanchi routes, hidden waterfalls, and close encounters with the Mro, Marma and Bawm communities. This 3-day adventure is built for travelers who crave sunrise-from-the-summit experiences, jeep-track journeys through winding ridge roads, and gentle treks to isolated tribal villages and waterfalls. Expect chilly dawns, breathtaking panoramas over layered hills, and local hospitality that introduces you to traditional crafts, music and cuisine.",
+      "mapCoordinates": { "lat": 21.8279, "lng": 92.2185 },
+      "mapUrl": "https://www.google.com/maps?q=21.8279,92.2185",
+      "image": "https://i.ibb.co/xyz/bandarban-nilgiri.jpg"
+    },
+    "duration": {
+      "days": 3,
+      "startDate": "2025-12-05",
+      "endDate": "2025-12-07"
+    },
+    "groupDetails": {
+      "totalPeople": 8,
+      "tripType": "Friends Tour",
+      "ageGroup": "18-40 years"
+    },
+    "transportation": {
+      "from": "Dhaka",
+      "to": "Bandarban",
+      "mode": "AC Bus + Chander Gari (Jeep)",
+      "details": [
+        {
+          "segment": "Dhaka to Chittagong",
+          "type": "AC Bus / Volvo",
+          "company": "Green Line / Hanif",
+          "departureTime": "9:00 PM (Previous night)",
+          "arrivalTime": "6:00 AM",
+          "duration": "9 hours",
+          "ticketPrice": 1400
+        },
+        {
+          "segment": "Chittagong to Bandarban (by road)",
+          "type": "AC Mini Coach / Bus",
+          "departureTime": "8:00 AM",
+          "arrivalTime": "11:30 AM",
+          "duration": "3.5 hours",
+          "ticketPrice": 500
+        },
+        {
+          "segment": "Local jeep rides (Chander Gari) for hill sightseeing",
+          "type": "Chander Gari",
+          "departureTime": "Flexible",
+          "arrivalTime": "Flexible",
+          "duration": "Varies",
+          "ticketPrice": 600
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Hilltop Eco Resort (Bandarban)",
+      "location": "Near Nilgiri Road",
+      "checkIn": "12:00 PM",
+      "checkOut": "11:00 AM",
+      "roomType": "Twin/Double Rooms & Cottages",
+      "totalRooms": 4,
+      "contactNumber": "+8801766666666",
+      "amenities": [
+        "Hot Water",
+        "Local Guide Desk",
+        "Balcony View",
+        "Restaurant"
+      ],
+      "image": "https://i.ibb.co/xyz/bandarban-resort.jpg",
+      "mapUrl": "https://www.google.com/maps?q=21.8150,92.2520"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Nilgiri Sunset",
+        "description": "Leave Dhaka/Chittagong overnight or early morning and arrive in Bandarban. After a short rest, take a jeep to Nilgiri viewpoint. Explore local tribal markets and watch a dramatic sunset from the hilltop.",
+        "activities": [
+          "Arrive at Bandarban and check-in",
+          "Short rest and breakfast",
+          "Jeep ride to Nilgiri tourist point",
+          "Short trek to viewpoint and sunrise/sunset photography",
+          "Visit local tribal market",
+          "Dinner at resort"
+        ],
+        "places": [
+          {
+            "name": "Nilgiri Tourist Point",
+            "lat": 21.7109,
+            "lng": 92.2476,
+            "image": "https://i.ibb.co/xyz/nilgiri.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.7109,92.2476"
+          },
+          {
+            "name": "Bandarban Bazaar",
+            "lat": 21.82,
+            "lng": 92.222,
+            "image": "https://i.ibb.co/xyz/bandarban-bazaar.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.8200,92.2220"
+          }
+        ],
+        "meals": {
+          "breakfast": "On the way / bus",
+          "lunch": "Local restaurant (rice & hill curry)",
+          "dinner": "Resort dinner (local fish & rice)"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Tribal Villages & Waterfalls",
+        "description": "Set out for a fuller exploration of Bandarban's tribal villages, rolling hills, and waterfalls. Visit a remote Mro village, hike to a waterfall, and spend the evening sampling tribal dishes and cultural stories.",
+        "activities": [
+          "Early breakfast with hill view",
+          "Visit Boga Lake (or local waterfall depending on road access)",
+          "Guided walk through tribal villages (Mro/Marma)",
+          "Lunch at community homestay",
+          "Late afternoon photography and rest",
+          "Evening cultural demonstration or bonfire (seasonal)"
+        ],
+        "places": [
+          {
+            "name": "Boga Lake (or alternative local lake)",
+            "lat": 21.089,
+            "lng": 92.318,
+            "image": "https://i.ibb.co/xyz/boga-lake.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.0890,92.3180"
+          },
+          {
+            "name": "Local Tribal Village",
+            "lat": 21.79,
+            "lng": 92.24,
+            "image": "https://i.ibb.co/xyz/tribal-village.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.7900,92.2400"
+          }
+        ],
+        "meals": {
+          "breakfast": "Resort breakfast",
+          "lunch": "Homestay (tribal food)",
+          "dinner": "Resort dinner (BBQ option)"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Short Trek & Return",
+        "description": "Final short trek to a nearby viewpoint for sunrise, then a relaxed descent back to Bandarban town for last-minute shopping before heading to Chittagong/Dhaka.",
+        "activities": [
+          "Sunrise at nearby viewpoint",
+          "Breakfast and check-out",
+          "Visit Shoilo Propat or other accessible waterfall",
+          "Lunch at Bandarban town",
+          "Shopping for handicrafts",
+          "Evening transport back to Chittagong/Dhaka"
+        ],
+        "places": [
+          {
+            "name": "Shoilo Propat (waterfall)",
+            "lat": 21.74,
+            "lng": 92.26,
+            "image": "https://i.ibb.co/xyz/shoilo-propat.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.7400,92.2600"
+          },
+          {
+            "name": "Bandarban Hill Road Viewpoint",
+            "lat": 21.8,
+            "lng": 92.23,
+            "image": "https://i.ibb.co/xyz/bandarban-view.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.8000,92.2300"
+          }
+        ],
+        "meals": {
+          "breakfast": "Resort",
+          "lunch": "Local restaurant",
+          "dinner": "On the way"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 7500,
+      "total": 60000,
+      "breakdown": {
+        "transport": 2000,
+        "accommodation": 3000,
+        "food": 1500,
+        "activities": 700,
+        "others": 300
+      }
+    },
+    "necessaryItems": [
+      "Warm clothes",
+      "Good walking shoes",
+      "Power bank",
+      "Raincoat",
+      "First aid kit",
+      "Camera",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": { "day": "18-25°C", "night": "10-16°C" },
+      "forecast": "Cool mornings with possible mist; afternoons mild"
+    },
+    "emergencyContacts": {
+      "localPolice": "01710000000",
+      "hospital": "Bandarban Sadar Hospital",
+      "resortManager": "+8801766666666",
+      "tourGuide": "Mr. Raju, +8801799999999"
+    },
+    "notes": "Roads are hilly and sometimes rough; jeep rides (Chander Gari) are part of the experience. Respect local customs at tribal villages and ask before photographing individuals."
+  },
+  {
+    "tourTitle": "4-Day Cox's Bazar Beach & Marine Drive",
+    "destination": {
+      "name": "Cox's Bazar",
+      "district": "Cox's Bazar",
+      "country": "Bangladesh",
+      "overview": "Cox's Bazar is famed for having one of the world's longest natural unbroken sea beaches, where golden sands meet the Bay of Bengal across a sweeping coastline. This 4-day itinerary mixes relaxing beach time, coastal exploration along the scenic Marine Drive, visits to Himchari and Inani Beach, and optional island or fishing-village excursions. Expect long walks at sunrise, fresh seafood feasts, and relaxing evenings by bonfires (seasonal). The Marine Drive offers a spectacular hill-and-sea panorama and is perfect for sunset drives and photography.",
+      "mapCoordinates": { "lat": 21.43, "lng": 91.97 },
+      "mapUrl": "https://www.google.com/maps?q=21.4300,91.9700",
+      "image": "https://i.ibb.co/xyz/cox-s-bazar-beach.jpg"
+    },
+    "duration": {
+      "days": 4,
+      "startDate": "2025-12-10",
+      "endDate": "2025-12-13"
+    },
+    "groupDetails": {
+      "totalPeople": 10,
+      "tripType": "Family & Friends",
+      "ageGroup": "All ages"
+    },
+    "transportation": {
+      "from": "Dhaka",
+      "to": "Cox's Bazar",
+      "mode": "AC Bus / Train / Domestic Flight",
+      "details": [
+        {
+          "segment": "Dhaka to Cox's Bazar (Bus)",
+          "type": "AC Bus",
+          "company": "Green Line / Shyamoli",
+          "departureTime": "10:00 PM (Prev night)",
+          "arrivalTime": "8:00 AM",
+          "duration": "10 hours",
+          "ticketPrice": 1600
+        },
+        {
+          "segment": "Dhaka to Cox's Bazar (Flight)",
+          "type": "Domestic Flight",
+          "company": "Biman/US-Bangla",
+          "departureTime": "Flexible",
+          "arrivalTime": "Flexible",
+          "duration": "1 hour",
+          "ticketPrice": 6000
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Seaview Resort Cox's Bazar",
+      "location": "Kolatoli Beach Area",
+      "checkIn": "2:00 PM",
+      "checkOut": "11:00 AM",
+      "roomType": "Double/Twin Sea-facing Rooms",
+      "totalRooms": 12,
+      "contactNumber": "+8801788888888",
+      "amenities": [
+        "Sea View Balcony",
+        "Restaurant",
+        "Free Wi-Fi",
+        "Beach Access"
+      ],
+      "image": "https://i.ibb.co/xyz/cox-resort.jpg",
+      "mapUrl": "https://www.google.com/maps?q=21.4300,91.9800"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Beach Walk",
+        "description": "Arrive early and settle into the hotel. Spend the day with a leisurely walk on Cox's Bazar beach, beach games, and a sunset view. Try local seafood shacks for dinner.",
+        "activities": [
+          "Check-in and relax",
+          "Long beach walk",
+          "Visit local craft stalls",
+          "Sunset photography at Kolatoli",
+          "Dinner at seaside restaurant"
+        ],
+        "places": [
+          {
+            "name": "Cox's Bazar Beach (Kolatoli)",
+            "lat": 21.4272,
+            "lng": 91.9773,
+            "image": "https://i.ibb.co/xyz/kolatoli.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.4272,91.9773"
+          }
+        ],
+        "meals": {
+          "breakfast": "On the way / bus",
+          "lunch": "Beachside cafe",
+          "dinner": "Seafood restaurant"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Marine Drive & Himchari",
+        "description": "Drive along Marine Drive for coastal panoramas, stop at viewpoints, then visit Himchari National Park for waterfalls and elevated viewpoints overlooking the sea.",
+        "activities": [
+          "Drive the Marine Drive",
+          "Stop at viewpoints for photos",
+          "Visit Himchari waterfall & park",
+          "Picnic lunch",
+          "Sunset at Marine Drive"
+        ],
+        "places": [
+          {
+            "name": "Marine Drive",
+            "lat": 21.35,
+            "lng": 92.1,
+            "image": "https://i.ibb.co/xyz/marine-drive.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.3500,92.1000"
+          },
+          {
+            "name": "Himchari National Park",
+            "lat": 21.42,
+            "lng": 91.98,
+            "image": "https://i.ibb.co/xyz/himchari.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.4200,91.9800"
+          }
+        ],
+        "meals": {
+          "breakfast": "Hotel",
+          "lunch": "Packed picnic or local restaurant",
+          "dinner": "Hotel/seafood"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Inani Beach & Optional Boat Trip",
+        "description": "Visit Inani Beach famous for its coral stones and cleaner shoreline. Optionally take a short boat trip to nearby islands or fishing villages for local cultural interaction.",
+        "activities": [
+          "Transfer to Inani Beach",
+          "Coral stone exploration & photography",
+          "Boat trip to fishing village (optional)",
+          "Relax on the beach",
+          "Evening bonfire (seasonal)"
+        ],
+        "places": [
+          {
+            "name": "Inani Beach",
+            "lat": 21.233,
+            "lng": 91.965,
+            "image": "https://i.ibb.co/xyz/inani.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.2330,91.9650"
+          }
+        ],
+        "meals": {
+          "breakfast": "Hotel",
+          "lunch": "Local restaurant",
+          "dinner": "Seafood buffet"
+        }
+      },
+      {
+        "day": 4,
+        "title": "Relax & Return",
+        "description": "Final morning for sunrise and a last beach walk. Free time for shopping, then depart for Dhaka by road or air.",
+        "activities": [
+          "Sunrise walk",
+          "Breakfast & check-out",
+          "Shopping for souvenirs",
+          "Depart for Dhaka"
+        ],
+        "places": [
+          {
+            "name": "Local Souvenir Market",
+            "lat": 21.43,
+            "lng": 91.97,
+            "image": "https://i.ibb.co/xyz/souvenirs.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.4300,91.9700"
+          }
+        ],
+        "meals": {
+          "breakfast": "Hotel",
+          "lunch": "Local restaurant",
+          "dinner": "On the way"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 9000,
+      "total": 90000,
+      "breakdown": {
+        "transport": 2200,
+        "accommodation": 4000,
+        "food": 1800,
+        "activities": 800,
+        "others": 200
+      }
+    },
+    "necessaryItems": [
+      "Sunscreen",
+      "Hat",
+      "Swimwear",
+      "Towel",
+      "Power bank",
+      "Camera",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": { "day": "24-30°C", "night": "20-24°C" },
+      "forecast": "Warm coastal climate; breezy evenings"
+    },
+    "emergencyContacts": {
+      "localPolice": "01720000000",
+      "hospital": "Cox's Bazar Sadar Hospital",
+      "hotelManager": "+8801788888888",
+      "tourGuide": "Ms. Fatima, +8801791111111"
+    },
+    "notes": "Marine Drive is best experienced during daytime and at sunset. Avoid swimming in rough surf and follow local lifeguard advice where available."
+  },
+  {
+    "tourTitle": "3-Day Sundarbans Boat Safari & Mangrove Adventure",
+    "destination": {
+      "name": "Sundarbans",
+      "district": "Khulna / Satkhira (Bangladesh side)",
+      "country": "Bangladesh",
+      "overview": "The Sundarbans is the world's largest contiguous mangrove forest, threaded with tidal waterways, mudflats and small islands. The area is famous for its unique biodiversity — spotted deer, saltwater crocodiles, an array of birdlife, and the elusive Royal Bengal Tiger. This 3-day boat safari focuses on exploring the channels by guided boat, visiting watchtowers and ranger stations, and experiencing the fragile mangrove ecosystem up-close. Travelers will find a tranquil, primeval environment, punctuated by cautious wildlife sightings and the distinct ecology of the Sundarbans.",
+      "mapCoordinates": { "lat": 21.85, "lng": 89.6 },
+      "mapUrl": "https://www.google.com/maps?q=21.8500,89.6000",
+      "image": "https://i.ibb.co/xyz/sundarbans-boat.jpg"
+    },
+    "duration": {
+      "days": 3,
+      "startDate": "2026-01-10",
+      "endDate": "2026-01-12"
+    },
+    "groupDetails": {
+      "totalPeople": 12,
+      "tripType": "Wildlife Safari",
+      "ageGroup": "18-50 years"
+    },
+    "transportation": {
+      "from": "Dhaka",
+      "to": "Mongla / Khulna (gateway to Sundarbans)",
+      "mode": "AC Bus + Launch/Boat",
+      "details": [
+        {
+          "segment": "Dhaka to Khulna/Mongla",
+          "type": "AC Bus / Train",
+          "company": "Shyamoli / Intercity Train",
+          "departureTime": "Night or early morning",
+          "arrivalTime": "Morning",
+          "duration": "8-10 hours",
+          "ticketPrice": 1200
+        },
+        {
+          "segment": "Khulna/Mongla to Sundarbans (Boat)",
+          "type": "Motor Launch / Boat",
+          "departureTime": "Morning",
+          "arrivalTime": "Midday",
+          "duration": "3-6 hours (depending on route)",
+          "ticketPrice": 1500
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Sundarbans Eco-Launch (overnight on boat)",
+      "location": "Sundarbans Waterways",
+      "checkIn": "10:00 AM (Day 1)",
+      "checkOut": "12:00 PM (Day 3)",
+      "roomType": "Cabins on Launch",
+      "totalRooms": 6,
+      "contactNumber": "+8801755555555",
+      "amenities": [
+        "On-board Meals",
+        "Guide/Tracker",
+        "Life Jackets",
+        "Sleeping Cabins"
+      ],
+      "image": "https://i.ibb.co/xyz/sundarbans-launch.jpg",
+      "mapUrl": "https://www.google.com/maps?q=21.8500,89.6000"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Gateway & River Transit",
+        "description": "Launch from Mongla/Khulna and transit into the Sundarbans, scanning mangrove-lined channels for birds and crocodiles. Attend briefing with forest guide and understand safety and conservation protocols.",
+        "activities": [
+          "Board launch and safety briefing",
+          "Transit along main channels",
+          "Birdwatching & photography",
+          "Visit a ranger station/wildlife watchtower",
+          "Sunset on the river"
+        ],
+        "places": [
+          {
+            "name": "Mongla Port (gateway)",
+            "lat": 22.5167,
+            "lng": 89.6333,
+            "image": "https://i.ibb.co/xyz/mongla.jpg",
+            "mapUrl": "https://www.google.com/maps?q=22.5167,89.6333"
+          },
+          {
+            "name": "Sundarbans Waterways",
+            "lat": 21.9,
+            "lng": 89.65,
+            "image": "https://i.ibb.co/xyz/sundarbans-waterways.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.9000,89.6500"
+          }
+        ],
+        "meals": {
+          "breakfast": "On the way",
+          "lunch": "On-board",
+          "dinner": "On-board (fresh catch if available)"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Safari & Watchtowers",
+        "description": "Full-day navigation of smaller creeks in search of wildlife; climb watchtowers for panoramic views and quiet observation. Learn about local mangrove ecology and tidal rhythms from your guide.",
+        "activities": [
+          "Early morning wildlife spotting",
+          "Visit to wildlife watchtower",
+          "Guided nature talk on mangroves",
+          "Explore tidal creeks by skiff",
+          "Evening cultural or ecological talk"
+        ],
+        "places": [
+          {
+            "name": "Wildlife Watchtower",
+            "lat": 21.86,
+            "lng": 89.63,
+            "image": "https://i.ibb.co/xyz/watchtower.jpg",
+            "mapUrl": "https://www.google.com/maps?q=21.8600,89.6300"
+          }
+        ],
+        "meals": {
+          "breakfast": "On-board",
+          "lunch": "Packed on skiff",
+          "dinner": "On-board"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Return & Visit Local Village",
+        "description": "Return towards Mongla/Khulna with stops at small mangrove-adjacent villages, buy local honey or handicrafts, and then depart for Dhaka.",
+        "activities": [
+          "Sunrise on the river",
+          "Breakfast & check-out",
+          "Visit local village or honey-collector station",
+          "Return transit to Mongla/Khulna",
+          "Departure for Dhaka"
+        ],
+        "places": [
+          {
+            "name": "Local Mangrove Village",
+            "lat": 22.0,
+            "lng": 89.6,
+            "image": "https://i.ibb.co/xyz/mangrove-village.jpg",
+            "mapUrl": "https://www.google.com/maps?q=22.0000,89.6000"
+          }
+        ],
+        "meals": {
+          "breakfast": "On-board",
+          "lunch": "Local restaurant at Mongla",
+          "dinner": "On the way"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 14000,
+      "total": 168000,
+      "breakdown": {
+        "transport": 2000,
+        "accommodation": 6000,
+        "food": 3000,
+        "activities": 3000,
+        "others": 1000
+      }
+    },
+    "necessaryItems": [
+      "Insect repellent",
+      "Sunscreen",
+      "Hat",
+      "Light rain jacket",
+      "Seasickness tablets (if prone)",
+      "Camera with zoom lens",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": { "day": "22-30°C", "night": "18-24°C" },
+      "forecast": "Tropical, humid; check tidal schedules. Certain months may have access restrictions."
+    },
+    "emergencyContacts": {
+      "localPolice": "01730000000",
+      "hospital": "Khulna Medical College Hospital",
+      "launchOperator": "+8801755555555",
+      "forestGuide": "Mr. Alam, +8801765555555"
+    },
+    "notes": "Sundarbans is ecologically sensitive — follow the guide's instructions at all times. Note there are seasonal closures or restrictions; confirm access before planning."
+  },
+  {
+    "tourTitle": "3-Day Srimangal Tea-Garden & Wetland Escape",
+    "destination": {
+      "name": "Srimangal (Sreemangal)",
+      "district": "Moulvibazar",
+      "country": "Bangladesh",
+      "overview": "Srimangal, often called the 'Tea Capital of Bangladesh', unfolds as a patchwork of emerald tea gardens, winding country lanes, wetlands and pockets of rainforest. This 3-day escape mixes slow, soulful walks through manicured tea estates, visits to Lawachara National Park for its old-growth forest and wildlife, a tranquil boat trip on a wetland sanctuary, and indulgence in the region's famed seven-layer tea. Expect gentle hikes, fragrant tea tastings, and relaxed village encounters among rubber and pineapple gardens.",
+      "mapCoordinates": { "lat": 24.3063, "lng": 91.729 },
+      "mapUrl": "https://www.google.com/maps?q=24.3063,91.7290",
+      "image": "https://i.ibb.co/xyz/srimangal-tea.jpg"
+    },
+    "duration": {
+      "days": 3,
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-20"
+    },
+    "groupDetails": {
+      "totalPeople": 6,
+      "tripType": "Nature & Relaxation",
+      "ageGroup": "All ages"
+    },
+    "transportation": {
+      "from": "Dhaka",
+      "to": "Srimangal",
+      "mode": "Train / AC Bus",
+      "details": [
+        {
+          "segment": "Dhaka to Srimangal (Train)",
+          "type": "Intercity Train (to Kulaura/Sylhet)",
+          "departureTime": "Overnight or early morning",
+          "arrivalTime": "Morning",
+          "duration": "6-8 hours",
+          "ticketPrice": 600
+        },
+        {
+          "segment": "Local transfers (CNG/van)",
+          "type": "CNG/Van",
+          "departureTime": "Flexible",
+          "arrivalTime": "Flexible",
+          "duration": "30-60 mins",
+          "ticketPrice": 200
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Tea Garden Guesthouse",
+      "location": "Near Lawachara / Madhabpur areas",
+      "checkIn": "1:00 PM",
+      "checkOut": "11:00 AM",
+      "roomType": "Double/Twin Rooms",
+      "totalRooms": 5,
+      "contactNumber": "+8801777771111",
+      "amenities": [
+        "Breakfast with tea view",
+        "Guided tea tours",
+        "Bicycle rental",
+        "Restaurant"
+      ],
+      "image": "https://i.ibb.co/xyz/srimangal-guest.jpg",
+      "mapUrl": "https://www.google.com/maps?q=24.3063,91.7290"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Tea Garden Walk",
+        "description": "Arrive mid-morning and start with a guided walk through nearby tea estates. Learn about tea-plucking, processing stages, and enjoy a tea-tasting session at a local garden.",
+        "activities": [
+          "Check-in and freshen up",
+          "Guided tea estate walk",
+          "Tea tasting (seven-layer tea experience)",
+          "Photography in rolling tea fields",
+          "Dinner at guesthouse"
+        ],
+        "places": [
+          {
+            "name": "Tea Garden (local)",
+            "lat": 24.308,
+            "lng": 91.734,
+            "image": "https://i.ibb.co/xyz/tea-garden.jpg",
+            "mapUrl": "https://www.google.com/maps?q=24.3080,91.7340"
+          }
+        ],
+        "meals": {
+          "breakfast": "On the way",
+          "lunch": "Local tea garden cafe",
+          "dinner": "Guesthouse (local cuisine)"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Lawachara National Park & Madhabpur Lake",
+        "description": "Early visit to Lawachara National Park for a forest walk and possibility of spotting macaques, birds, and the hoolock gibbon (if fortunate). Follow with a boat or walking trip to Madhabpur Lake and its surrounding wetlands.",
+        "activities": [
+          "Early morning forest walk in Lawachara",
+          "Guided wildlife & birdwatching",
+          "Visit Madhabpur Lake for boating and photography",
+          "Afternoon visit to tribal craft shops",
+          "Relaxed dinner"
+        ],
+        "places": [
+          {
+            "name": "Lawachara National Park",
+            "lat": 24.333,
+            "lng": 91.719,
+            "image": "https://i.ibb.co/xyz/lawachara.jpg",
+            "mapUrl": "https://www.google.com/maps?q=24.3330,91.7190"
+          },
+          {
+            "name": "Madhabpur Lake",
+            "lat": 24.295,
+            "lng": 91.74,
+            "image": "https://i.ibb.co/xyz/madhabpur.jpg",
+            "mapUrl": "https://www.google.com/maps?q=24.2950,91.7400"
+          }
+        ],
+        "meals": {
+          "breakfast": "Guesthouse",
+          "lunch": "Picnic near Madhabpur",
+          "dinner": "Local restaurant"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Tea Museum & Return",
+        "description": "Visit a local tea museum or processing estate to see how leaves become tea, pick up packaged tea souvenirs, then return to Dhaka/Sylhet.",
+        "activities": [
+          "Tea museum/processing tour",
+          "Shopping for premium tea",
+          "Check-out and departure",
+          "Return to Dhaka or onward travel"
+        ],
+        "places": [
+          {
+            "name": "Local Tea Processing Unit",
+            "lat": 24.3063,
+            "lng": 91.729,
+            "image": "https://i.ibb.co/xyz/tea-processing.jpg",
+            "mapUrl": "https://www.google.com/maps?q=24.3063,91.7290"
+          }
+        ],
+        "meals": {
+          "breakfast": "Guesthouse",
+          "lunch": "Local eatery",
+          "dinner": "On the way"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 5200,
+      "total": 31200,
+      "breakdown": {
+        "transport": 800,
+        "accommodation": 2000,
+        "food": 1000,
+        "activities": 800,
+        "others": 600
+      }
+    },
+    "necessaryItems": [
+      "Light rain jacket",
+      "Comfortable walking shoes",
+      "Binoculars",
+      "Sunscreen",
+      "Insect repellent",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": { "day": "22-28°C", "night": "15-20°C" },
+      "forecast": "Mild and humid; mornings often misty among tea gardens"
+    },
+    "emergencyContacts": {
+      "localPolice": "01740000000",
+      "hospital": "Moulvibazar Sadar Hospital",
+      "guesthouseManager": "+8801777771111",
+      "tourGuide": "Mr. Hasan, +8801712223333"
+    },
+    "notes": "Respect protected areas in Lawachara — follow guide paths and avoid disturbing wildlife. Tea-plucking seasons and factory schedules may affect tours."
+  },
+  {
+    "tourTitle": "3-Day Saint Martin’s Island Tour",
+    "destination": {
+      "name": "Saint Martin's Island",
+      "district": "Cox's Bazar (Offshore)",
+      "country": "Bangladesh",
+      "overview": "Saint Martin's Island is a tiny coral island in the northeastern Bay of Bengal, known for turquoise waters, coral fragments along the shore, and laid-back island life. This 3-day island getaway includes boat transfers, seaside relaxation, snorkeling opportunities (seasonal), and interactions with local fishing communities. Expect slow island rhythms, seafood feasts, and exceptional sunsets — a perfect respite for travelers who want a relaxing, intimate island experience.",
+      "mapCoordinates": { "lat": 20.627, "lng": 92.313 },
+      "mapUrl": "https://www.google.com/maps?q=20.6270,92.3130",
+      "image": "https://i.ibb.co/xyz/saint-martins.jpg"
+    },
+    "duration": {
+      "days": 3,
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-22"
+    },
+    "groupDetails": {
+      "totalPeople": 6,
+      "tripType": "Beach & Island",
+      "ageGroup": "16-50 years"
+    },
+    "transportation": {
+      "from": "Cox's Bazar",
+      "to": "Saint Martin's Island",
+      "mode": "Speed Boat / Launch",
+      "details": [
+        {
+          "segment": "Cox's Bazar to Teknaf",
+          "type": "Road transport",
+          "departureTime": "Early morning",
+          "arrivalTime": "Midday",
+          "duration": "3-4 hours",
+          "ticketPrice": 400
+        },
+        {
+          "segment": "Teknaf to Saint Martin's (Speedboat)",
+          "type": "Speedboat",
+          "departureTime": "Around midday",
+          "arrivalTime": "1 hour later",
+          "duration": "1 hour",
+          "ticketPrice": 800
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Island Cottage Stays",
+      "location": "Near the main village",
+      "checkIn": "12:00 PM",
+      "checkOut": "10:00 AM",
+      "roomType": "Beach cottages & guest rooms",
+      "totalRooms": 8,
+      "contactNumber": "+8801799994444",
+      "amenities": [
+        "Beach Access",
+        "Local seafood restaurant",
+        "Snorkeling gear rental (seasonal)"
+      ],
+      "image": "https://i.ibb.co/xyz/island-cottage.jpg",
+      "mapUrl": "https://www.google.com/maps?q=20.6270,92.3130"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Island Intro",
+        "description": "Travel to Teknaf and board a speedboat to Saint Martin's. After check-in, take a relaxed island walk, visit the local market and enjoy fresh seafood as the sun sets.",
+        "activities": [
+          "Boat transfer and check-in",
+          "Walk along the coral-strewn beach",
+          "Visit local island market",
+          "Sunset at the western point",
+          "Dinner of fresh catch"
+        ],
+        "places": [
+          {
+            "name": "Saint Martin's Village",
+            "lat": 20.627,
+            "lng": 92.313,
+            "image": "https://i.ibb.co/xyz/sm-village.jpg",
+            "mapUrl": "https://www.google.com/maps?q=20.6270,92.3130"
+          }
+        ],
+        "meals": {
+          "breakfast": "On the way",
+          "lunch": "On the boat / island cafe",
+          "dinner": "Local seafood specialty"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Beach Time & Snorkeling",
+        "description": "Spend a day relaxing on the beach and snorkeling in shallow reefs (snorkel availability depends on season and local operators). Visit Coral Beach and take photographs of the unique shoreline.",
+        "activities": [
+          "Beach relaxation",
+          "Snorkeling or shallow reef exploration (optional)",
+          "Photography of coral fragments",
+          "Evening beach BBQ (seasonal)"
+        ],
+        "places": [
+          {
+            "name": "Coral Beach (north end)",
+            "lat": 20.63,
+            "lng": 92.318,
+            "image": "https://i.ibb.co/xyz/coral-beach.jpg",
+            "mapUrl": "https://www.google.com/maps?q=20.6300,92.3180"
+          }
+        ],
+        "meals": {
+          "breakfast": "Hotel",
+          "lunch": "Beachside cafe",
+          "dinner": "BBQ or local restaurant"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Island Walk & Return",
+        "description": "Early morning stroll for sunrise, a final swim or souvenir shopping, then return to Teknaf and onward transport to Cox's Bazar or Dhaka.",
+        "activities": [
+          "Sunrise walk",
+          "Breakfast and check-out",
+          "Buy island souvenirs",
+          "Speedboat to Teknaf",
+          "Return by road to Cox's Bazar/Dhaka"
+        ],
+        "places": [
+          {
+            "name": "Island Shoreline",
+            "lat": 20.627,
+            "lng": 92.313,
+            "image": "https://i.ibb.co/xyz/island-shore.jpg",
+            "mapUrl": "https://www.google.com/maps?q=20.6270,92.3130"
+          }
+        ],
+        "meals": {
+          "breakfast": "Cottage",
+          "lunch": "On the way",
+          "dinner": "On the way"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 7800,
+      "total": 46800,
+      "breakdown": {
+        "transport": 2000,
+        "accommodation": 3000,
+        "food": 1500,
+        "activities": 800,
+        "others": 500
+      }
+    },
+    "necessaryItems": [
+      "Snorkel set (optional)",
+      "Sunscreen",
+      "Light beachwear",
+      "Flip-flops",
+      "Water bottle",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": { "day": "24-30°C", "night": "22-26°C" },
+      "forecast": "Warm sea climate; best outside monsoon months"
+    },
+    "emergencyContacts": {
+      "localPolice": "01750000000",
+      "nearestHospital": "Teknaf Upazila Health Complex",
+      "islandManager": "+8801799994444",
+      "boatOperator": "Mr. Karim, +8801718889999"
+    },
+    "notes": "Coral and marine life are fragile — avoid touching corals and follow local guidance when snorkeling. Boat schedules may vary with weather and tidal conditions."
+  },
+  {
+    "tourTitle": "3-Day Khagrachari Hills & Waterfalls Tour",
+    "destination": {
+      "name": "Khagrachari",
+      "district": "Khagrachari",
+      "country": "Bangladesh",
+      "overview": "Khagrachari is a serene hill district with green ridgelines, tribal villages, cascading waterfalls, and quiet lakes. Known for attractions like Sajek-adjacent hill roads, peaceful viewpoints, and Hajachora waterfall on the way to Sajek, Khagrachari is ideal for travelers seeking off-the-beaten-path trekking, cultural encounters with indigenous communities, and easy access to nearby hill destinations. This 3-day tour focuses on accessible hikes, waterfall visits, and cultural exchange with local communities.",
+      "mapCoordinates": { "lat": 23.1166, "lng": 91.9976 },
+      "mapUrl": "https://www.google.com/maps?q=23.1166,91.9976",
+      "image": "https://i.ibb.co/xyz/khagrachari.jpg"
+    },
+    "duration": {
+      "days": 3,
+      "startDate": "2025-11-25",
+      "endDate": "2025-11-27"
+    },
+    "groupDetails": {
+      "totalPeople": 6,
+      "tripType": "Nature & Culture",
+      "ageGroup": "16-50 years"
+    },
+    "transportation": {
+      "from": "Dhaka",
+      "to": "Khagrachari",
+      "mode": "AC Bus + Local Jeep",
+      "details": [
+        {
+          "segment": "Dhaka to Khagrachari",
+          "type": "AC Bus",
+          "company": "Shyamoli / Ena Transport",
+          "departureTime": "Night",
+          "arrivalTime": "Morning",
+          "duration": "8-10 hours",
+          "ticketPrice": 1200
+        },
+        {
+          "segment": "Local transfers for hill sightseeing",
+          "type": "Jeep/Chander Gari",
+          "departureTime": "Flexible",
+          "arrivalTime": "Flexible",
+          "duration": "Varies",
+          "ticketPrice": 600
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Hillside Lodge Khagrachari",
+      "location": "Near Khagrachari town",
+      "checkIn": "12:00 PM",
+      "checkOut": "11:00 AM",
+      "roomType": "Double/Twin Rooms",
+      "totalRooms": 5,
+      "contactNumber": "+8801766664444",
+      "amenities": ["Hot Water", "Guided Tours", "Balcony Views"],
+      "image": "https://i.ibb.co/xyz/khagra-lodge.jpg",
+      "mapUrl": "https://www.google.com/maps?q=23.1166,91.9976"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Local Market",
+        "description": "Arrive and enjoy a relaxed day visiting Khagrachari town, local markets and a short nature walk to acclimatize to the hills.",
+        "activities": [
+          "Check-in and rest",
+          "Visit local handicraft market",
+          "Short village walk",
+          "Dinner at local restaurant"
+        ],
+        "places": [
+          {
+            "name": "Khagrachari Town",
+            "lat": 23.1075,
+            "lng": 91.9706,
+            "image": "https://i.ibb.co/xyz/khagra-town.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.1075,91.9706"
+          }
+        ],
+        "meals": {
+          "breakfast": "On the way",
+          "lunch": "Local eatery",
+          "dinner": "Resort/local"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Hajachora Waterfall & Hill Viewpoints",
+        "description": "Visit Hajachora waterfall and scenic viewpoints. Enjoy a picnic by the waterfall and a short hike around the ridge roads.",
+        "activities": [
+          "Breakfast with hill view",
+          "Jeep to Hajachora waterfall",
+          "Picnic & swim (where safe)",
+          "Short trek to nearby viewpoints",
+          "Evening cultural exchange"
+        ],
+        "places": [
+          {
+            "name": "Hajachora Waterfall",
+            "lat": 23.1358,
+            "lng": 92.1995,
+            "image": "https://i.ibb.co/xyz/hajachora.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.1358,92.1995"
+          },
+          {
+            "name": "Local Ridge Viewpoint",
+            "lat": 23.13,
+            "lng": 92.2,
+            "image": "https://i.ibb.co/xyz/khagra-view.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.1300,92.2000"
+          }
+        ],
+        "meals": {
+          "breakfast": "Resort",
+          "lunch": "Packed picnic at waterfall",
+          "dinner": "Local restaurant"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Village Visit & Return",
+        "description": "Morning village visit to see traditional crafts, then depart for Dhaka with memories and local handicraft souvenirs.",
+        "activities": [
+          "Village visit and handicraft demonstration",
+          "Breakfast & check-out",
+          "Shopping for bamboo and woven goods",
+          "Departure for Dhaka"
+        ],
+        "places": [
+          {
+            "name": "Handicraft Village",
+            "lat": 23.12,
+            "lng": 92.01,
+            "image": "https://i.ibb.co/xyz/handicraft-village.jpg",
+            "mapUrl": "https://www.google.com/maps?q=23.1200,92.0100"
+          }
+        ],
+        "meals": {
+          "breakfast": "Resort",
+          "lunch": "Local",
+          "dinner": "On the way"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 5600,
+      "total": 33600,
+      "breakdown": {
+        "transport": 1500,
+        "accommodation": 2200,
+        "food": 1000,
+        "activities": 600,
+        "others": 300
+      }
+    },
+    "necessaryItems": [
+      "Waterproof shoes",
+      "Light jacket",
+      "Power bank",
+      "First aid kit",
+      "Camera",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": { "day": "19-26°C", "night": "12-18°C" },
+      "forecast": "Cool mornings and pleasant days; possible afternoon showers depending on season"
+    },
+    "emergencyContacts": {
+      "localPolice": "01760000000",
+      "hospital": "Khagrachari District Hospital",
+      "lodgeManager": "+8801766664444",
+      "tourGuide": "Mr. Robin, +8801788888888"
+    },
+    "notes": "Some waterfall access points may be remote; wear sturdy shoes and follow local guide instructions."
+  },
+  {
+    "tourTitle": "3-Day Rangamati Lake & Hills Tour",
+    "destination": {
+      "name": "Rangamati (Kaptai Lake)",
+      "district": "Rangamati",
+      "country": "Bangladesh",
+      "overview": "Rangamati, centered around the vast Kaptai Lake, is a placid destination of forested hills, tranquil water vistas, and indigenous culture. This 3-day tour highlights boat cruises on Kaptai Lake, visits to tribal markets and handicraft villages, trips to the Hanging Bridge and tribal viewpoints, and relaxed afternoons by the water. Rangamati’s lake-form geography provides a calmer, reflective contrast to the high ridges of other Hill Tracts and is a favorite for photography, boat trips, and buying handcrafted goods.",
+      "mapCoordinates": { "lat": 22.6296, "lng": 92.221 },
+      "mapUrl": "https://www.google.com/maps?q=22.6296,92.2210",
+      "image": "https://i.ibb.co/xyz/rangamati-lake.jpg"
+    },
+    "duration": {
+      "days": 3,
+      "startDate": "2025-12-28",
+      "endDate": "2025-12-30"
+    },
+    "groupDetails": {
+      "totalPeople": 6,
+      "tripType": "Relaxed Nature",
+      "ageGroup": "All ages"
+    },
+    "transportation": {
+      "from": "Dhaka",
+      "to": "Rangamati (Kaptai)",
+      "mode": "AC Bus / Private Car",
+      "details": [
+        {
+          "segment": "Dhaka to Rangamati",
+          "type": "AC Bus",
+          "company": "Sadharan / Local Operators",
+          "departureTime": "Night",
+          "arrivalTime": "Morning",
+          "duration": "9-10 hours",
+          "ticketPrice": 1200
+        },
+        {
+          "segment": "Local boat cruise on Kaptai Lake",
+          "type": "Motorboat",
+          "departureTime": "Flexible",
+          "arrivalTime": "Flexible",
+          "duration": "2-4 hours",
+          "ticketPrice": 800
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Kaptai Lake Resort",
+      "location": "Lakeside, Rangamati",
+      "checkIn": "1:00 PM",
+      "checkOut": "11:00 AM",
+      "roomType": "Lake View Cottages",
+      "totalRooms": 6,
+      "contactNumber": "+8801765554444",
+      "amenities": ["Boat Tours", "Balcony Lake View", "Restaurant", "Parking"],
+      "image": "https://i.ibb.co/xyz/kaptai-resort.jpg",
+      "mapUrl": "https://www.google.com/maps?q=22.6296,92.2210"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Lakeside Walk",
+        "description": "Arrive and unwind with a lakeside walk, visiting the local bazaar and enjoying a boat-sunset on Kaptai Lake.",
+        "activities": [
+          "Check-in and relax",
+          "Boat trip at dusk",
+          "Visit local market",
+          "Dinner at lakeside restaurant"
+        ],
+        "places": [
+          {
+            "name": "Kaptai Lake",
+            "lat": 22.6333,
+            "lng": 92.2333,
+            "image": "https://i.ibb.co/xyz/kaptai-lake-spot.jpg",
+            "mapUrl": "https://www.google.com/maps?q=22.6333,92.2333"
+          },
+          {
+            "name": "Rangamati Hanging Bridge",
+            "lat": 22.624,
+            "lng": 92.217,
+            "image": "https://i.ibb.co/xyz/hanging-bridge.jpg",
+            "mapUrl": "https://www.google.com/maps?q=22.6240,92.2170"
+          }
+        ],
+        "meals": {
+          "breakfast": "On the way",
+          "lunch": "Local restaurant",
+          "dinner": "Resort or lakeside cafe"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Boat Cruise & Tribal Markets",
+        "description": "Full-day boat cruise across Kaptai Lake visiting small islands, local tribal settlements, and artisan workshops. Opportunity to buy indigenous handicrafts.",
+        "activities": [
+          "Breakfast with lake view",
+          "Full-day boat cruise",
+          "Visit artisan villages",
+          "Photography and picnic lunch",
+          "Return to resort"
+        ],
+        "places": [
+          {
+            "name": "Tribal Handicraft Village",
+            "lat": 22.625,
+            "lng": 92.225,
+            "image": "https://i.ibb.co/xyz/handicraft-ranga.jpg",
+            "mapUrl": "https://www.google.com/maps?q=22.6250,92.2250"
+          }
+        ],
+        "meals": {
+          "breakfast": "Resort",
+          "lunch": "Packed picnic on boat",
+          "dinner": "Local fish curry"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Viewpoint & Return",
+        "description": "Short trek to a nearby viewpoint for sunrise and panoramic lake vistas, then return to Dhaka after a relaxed brunch and check-out.",
+        "activities": [
+          "Sunrise at viewpoint",
+          "Breakfast & check-out",
+          "Final shopping time",
+          "Departure to Dhaka"
+        ],
+        "places": [
+          {
+            "name": "Lake Viewpoint",
+            "lat": 22.64,
+            "lng": 92.23,
+            "image": "https://i.ibb.co/xyz/ranga-view.jpg",
+            "mapUrl": "https://www.google.com/maps?q=22.6400,92.2300"
+          }
+        ],
+        "meals": {
+          "breakfast": "Resort",
+          "lunch": "Local restaurant",
+          "dinner": "On the way"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 6800,
+      "total": 40800,
+      "breakdown": {
+        "transport": 1800,
+        "accommodation": 3000,
+        "food": 1200,
+        "activities": 1200,
+        "others": 600
+      }
+    },
+    "necessaryItems": [
+      "Waterproof bag for electronics",
+      "Swimwear (optional)",
+      "Hiking shoes",
+      "Power bank",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": { "day": "20-27°C", "night": "12-18°C" },
+      "forecast": "Pleasant lake climate; mornings cool"
+    },
+    "emergencyContacts": {
+      "localPolice": "01770000000",
+      "hospital": "Rangamati Sadar Hospital",
+      "resortManager": "+8801765554444",
+      "tourGuide": "Mr. Hasan, +8801713334444"
+    },
+    "notes": "Boat schedules may vary; private launches are recommended for full-day cruises to remote islands."
+  },
+  {
+    "tourTitle": "3-Day Sylhet Hills & River Tour",
+    "destination": {
+      "name": "Sylhet Hills & Rivers",
+      "district": "Sylhet",
+      "country": "Bangladesh",
+      "overview": "Sylhet is a lush northeastern region known for its rolling tea gardens, clear rivers, and spiritual shrines. This 3-day tour explores Sylhet’s gentle hills, the cascading waterfalls near Sylhet city, and peaceful riverbanks — plus a glance at the region’s Sufi shrines and colonial-era tea estates. The itinerary blends moderate hikes, river-side relaxation, and authentic Sylheti cuisine.",
+      "mapCoordinates": { "lat": 24.8949, "lng": 91.8687 },
+      "mapUrl": "https://www.google.com/maps?q=24.8949,91.8687",
+      "image": "https://i.ibb.co/xyz/sylhet-hills.jpg"
+    },
+    "duration": {
+      "days": 3,
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-07"
+    },
+    "groupDetails": {
+      "totalPeople": 8,
+      "tripType": "Nature & Culture",
+      "ageGroup": "All ages"
+    },
+    "transportation": {
+      "from": "Dhaka",
+      "to": "Sylhet",
+      "mode": "Train / AC Bus / Flight",
+      "details": [
+        {
+          "segment": "Dhaka to Sylhet (Train)",
+          "type": "Intercity Train",
+          "departureTime": "Overnight/early morning",
+          "arrivalTime": "Morning",
+          "duration": "7-8 hours",
+          "ticketPrice": 700
+        },
+        {
+          "segment": "Local tuk-tuk / van transfers",
+          "type": "CNG/Van",
+          "departureTime": "Flexible",
+          "arrivalTime": "Flexible",
+          "duration": "Short",
+          "ticketPrice": 200
+        }
+      ]
+    },
+    "accommodation": {
+      "hotelName": "Sylhet Riverside Hotel",
+      "location": "Near Surma River",
+      "checkIn": "2:00 PM",
+      "checkOut": "11:00 AM",
+      "roomType": "Double/Twin Rooms",
+      "totalRooms": 10,
+      "contactNumber": "+8801782223333",
+      "amenities": ["River View", "Restaurant", "Guided Tours"],
+      "image": "https://i.ibb.co/xyz/sylhet-hotel.jpg",
+      "mapUrl": "https://www.google.com/maps?q=24.8949,91.8687"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & City Walk",
+        "description": "Arrive and enjoy a light city walk, visiting local markets, tea shops, and a riverside evening.",
+        "activities": [
+          "Check-in and rest",
+          "Walk along Surma River",
+          "Visit local tea shops",
+          "Dinner with Sylheti specialties"
+        ],
+        "places": [
+          {
+            "name": "Surma River Bank",
+            "lat": 24.8949,
+            "lng": 91.8687,
+            "image": "https://i.ibb.co/xyz/surma-river.jpg",
+            "mapUrl": "https://www.google.com/maps?q=24.8949,91.8687"
+          }
+        ],
+        "meals": {
+          "breakfast": "On the way",
+          "lunch": "Local restaurant",
+          "dinner": "Hotel/restaurant"
+        }
+      },
+      {
+        "day": 2,
+        "title": "Tea Estates & Waterfalls",
+        "description": "Visit nearby tea estates, take a guided plantation walk and then head to a nearby waterfall for a picnic and photo opportunities.",
+        "activities": [
+          "Tea estate visit and tasting",
+          "Short plantation walk",
+          "Visit to Lalakhal (river with clear water) or nearby waterfall",
+          "Evening return and rest"
+        ],
+        "places": [
+          {
+            "name": "Lalakhal (Jaflong area)",
+            "lat": 25.15,
+            "lng": 92.06,
+            "image": "https://i.ibb.co/xyz/lalakhal.jpg",
+            "mapUrl": "https://www.google.com/maps?q=25.1500,92.0600"
+          },
+          {
+            "name": "Local Tea Estate",
+            "lat": 24.92,
+            "lng": 91.82,
+            "image": "https://i.ibb.co/xyz/sylhet-tea.jpg",
+            "mapUrl": "https://www.google.com/maps?q=24.9200,91.8200"
+          }
+        ],
+        "meals": {
+          "breakfast": "Hotel",
+          "lunch": "Picnic near waterfall",
+          "dinner": "Local restaurant"
+        }
+      },
+      {
+        "day": 3,
+        "title": "Shrines & Return",
+        "description": "Visit some of Sylhet's cultural shrines or gardens, buy local tea, and prepare for departure back to Dhaka.",
+        "activities": [
+          "Visit Shah Jalal Shrine or other local landmarks",
+          "Breakfast & check-out",
+          "Shopping for premium tea",
+          "Return to Dhaka"
+        ],
+        "places": [
+          {
+            "name": "Shah Jalal Shrine (example)",
+            "lat": 24.8918,
+            "lng": 91.8668,
+            "image": "https://i.ibb.co/xyz/shah-jalal.jpg",
+            "mapUrl": "https://www.google.com/maps?q=24.8918,91.8668"
+          }
+        ],
+        "meals": {
+          "breakfast": "Hotel",
+          "lunch": "Local",
+          "dinner": "On the way"
+        }
+      }
+    ],
+    "estimatedBudget": {
+      "perPerson": 6200,
+      "total": 49600,
+      "breakdown": {
+        "transport": 1500,
+        "accommodation": 2600,
+        "food": 1200,
+        "activities": 1000,
+        "others": 300
+      }
+    },
+    "necessaryItems": [
+      "Comfortable shoes",
+      "Sunscreen",
+      "Camera",
+      "Power bank",
+      "National ID card"
+    ],
+    "weather": {
+      "expectedTemperature": { "day": "22-30°C", "night": "16-22°C" },
+      "forecast": "Lush, often humid; mornings misty in tea areas"
+    },
+    "emergencyContacts": {
+      "localPolice": "01780000000",
+      "hospital": "Sylhet MAG Osmani Medical College Hospital",
+      "hotelManager": "+8801782223333",
+      "tourGuide": "Mr. Aziz, +8801714445555"
+    },
+    "notes": "Roads near river and tea estate areas can be slippery during the rainy season; plan accordingly."
+  }
+]

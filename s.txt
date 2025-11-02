@@ -1,0 +1,298 @@
+
+
+"use client";
+import { useParams, useRouter } from "next/navigation";
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+
+export default function page() {
+  const router = useRouter();
+  const { id } = useParams(); 
+  const [destination, setDestination] = useState(null);
+  const [relatedDestinations, setRelatedDestinations] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  console.log("Fetching destination for:", id);
+
+  useEffect(() => {
+    if (!id) return;
+
+    const fetchDestination = async () => {
+      try {
+        // ✅ Fetch main destination by _id
+        const res = await fetch(
+          `${process.env.NEXT_PUBLIC_BASE_URL}/api/destinations/${id}`
+        );
+        if (!res.ok) throw new Error("Destination not found");
+        const data = await res.json();
+        setDestination(data);
+
+        // ✅ Fetch all destinations for "You May Also Like"
+        const allRes = await fetch(
+          `${process.env.NEXT_PUBLIC_BASE_URL}/api/destinations`
+        );
+        const allData = await allRes.json();
+
+        // ✅ Exclude the current destination and pick 3 random ones
+        const filtered = allData.filter((d) => d._id !== data._id);
+        const randomThree = filtered.sort(() => 0.5 - Math.random()).slice(0, 3);
+        setRelatedDestinations(randomThree);
+      } catch (error) {
+        console.error("Error fetching destination:", error);
+        setDestination(null);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchDestination();
+  }, [id]);
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center text-5xl font-anton text-gray-600 dark:text-gray-300 h-screen">
+        Loading...
+      </div>
+    );
+  }
+
+  if (!destination) {
+    return (
+      <div className="text-center py-20 text-gray-600 dark:text-gray-300">
+        Destination not found!
+      </div>
+    );
+  }
+
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.6 }}
+      className="w-full min-h-screen bg-white dark:bg-[#0f0f17] text-gray-900 dark:text-gray-100"
+    >
+      {/* 🌄 Hero Section */}
+      <div className="relative h-[70vh] w-full overflow-hidden">
+        <motion.img
+          src={destination.image}
+          alt={destination.title}
+          className="absolute w-full h-full object-cover"
+          initial={{ scale: 1.2, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+        />
+        <div className="absolute inset-0 bg-black/50 flex flex-col justify-end p-10">
+          <motion.div
+            initial={{ y: 80, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+          >
+            <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg">
+              {destination.title}
+            </h1>
+            <p className="text-lg md:text-2xl text-gray-200 mt-3">
+              {destination.subtitle}
+            </p>
+          </motion.div>
+        </div>
+      </div>
+
+      {/* 📄 Main Content */}
+      <div className="max-w-5xl mx-auto py-16 px-6 space-y-12">
+        {/* Description */}
+        <motion.div
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed text-lg"
+        >
+          {destination.description
+            ?.split("\n")
+            .filter((para) => para.trim() !== "")
+            .map((para, index) => (
+              <p key={index}>{para}</p>
+            ))}
+        </motion.div>
+
+        {/* Travel Info */}
+        <motion.div
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="grid md:grid-cols-2 gap-8"
+        >
+          <div>
+            <h2 className="text-2xl font-semibold mb-3">Location</h2>
+            <p className="text-gray-700 dark:text-gray-300">
+              {destination.location}
+            </p>
+          </div>
+          <div>
+            <h2 className="text-2xl font-semibold mb-3">Best Time to Visit</h2>
+            <p className="text-gray-700 dark:text-gray-300">
+              {destination.best_time}
+            </p>
+          </div>
+          <div className="md:col-span-2">
+            <h2 className="text-2xl font-semibold mb-3">How to Reach</h2>
+            <p className="text-gray-700 dark:text-gray-300">
+              {destination.how_to_reach}
+            </p>
+          </div>
+        </motion.div>
+
+        {/* Activities */}
+        {destination.activities && destination.activities.length > 0 && (
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h2 className="text-2xl font-semibold mb-4">Activities</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+              {destination.activities.map((activity, idx) => (
+                <li key={idx}>{activity}</li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+
+        {/* Map */}
+        {destination.map_url && (
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="rounded-lg overflow-hidden shadow-lg"
+          >
+            <iframe
+              className="w-full h-80 md:h-96"
+              src={destination.map_url}
+              title={destination.title}
+              allowFullScreen
+            ></iframe>
+          </motion.div>
+        )}
+
+        {/* You May Also Like */}
+        {relatedDestinations.length > 0 && (
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h2 className="text-3xl font-bold mb-8">You May Also Like</h2>
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+              {relatedDestinations.map((dest, index) => (
+                <motion.div
+                  key={dest._id}
+                  onClick={() => router.push(`/destination/${dest._id}`)}
+                  initial={{ opacity: 0, scale: 0.9, y: 40 }}
+                  whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    delay: index * 0.1,
+                    duration: 0.6,
+                    ease: "easeOut",
+                  }}
+                  whileHover={{ scale: 1.04, rotate: 0.5 }}
+                  className="relative rounded-3xl overflow-hidden shadow-xl group cursor-pointer bg-gradient-to-br from-gray-800/50 via-gray-900/60 to-black/70 dark:from-gray-800 dark:via-gray-900 dark:to-black"
+                >
+                  <div
+                    className="w-full h-48 bg-center bg-cover transition-transform duration-500 group-hover:scale-110"
+                    style={{ backgroundImage: `url(${dest.image})` }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-90"></div>
+                  <div className="absolute bottom-0 p-4 w-full text-white">
+                    <motion.h3
+                      className="text-xl font-bold mb-1 tracking-wide"
+                      whileHover={{ x: 5 }}
+                      transition={{ type: "spring", stiffness: 300 }}
+                    >
+                      {dest.title}
+                    </motion.h3>
+                    <p className="text-gray-200 text-sm">{dest.subtitle}</p>
+                    <div className="flex items-center justify-between mt-2">
+                      <span className="text-xs bg-white/70 text-black font-semibold px-3 py-1 rounded-full backdrop-blur-sm">
+                        {dest.type}
+                      </span>
+                      <span className="text-sm flex items-center gap-1">
+                        ⭐ {dest.rating}
+                      </span>
+                    </div>
+                  </div>
+                  <motion.div
+                    className="absolute inset-0 rounded-3xl bg-gradient-to-r from-yellow-400/20 via-transparent to-yellow-500/20 opacity-0 group-hover:opacity-100 transition duration-500"
+                  ></motion.div>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        )}
+
+        {/* Back Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="text-center mt-12"
+        >
+          <button
+            onClick={() => router.back()}
+            className="px-8 py-3 text-lg font-semibold rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-md transition-all duration-300"
+          >
+            ← Back to All Destinations
+          </button>
+        </motion.div>
+      </div>
+    </motion.div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
