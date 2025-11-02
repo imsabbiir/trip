@@ -356,7 +356,7 @@ body {
 }
 
 .input-box {
-  @apply w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-[#2c2c38] text-gray-700 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500;
+  @apply w-full px-4 py-2 rounded-lg border border-gray-300 bg-white  text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500;
 }
 .btn-primary {
   @apply bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-all;

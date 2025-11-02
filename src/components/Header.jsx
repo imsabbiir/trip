@@ -45,7 +45,7 @@ export default function Header() {
             <motion.div
               key={link.href}
               whileHover={{ y: -2, scale: 1.05 }}
-              className="relative text-gray-700 dark:text-gray-200 font-medium group"
+              className="relative text-gray-700  font-medium group"
             >
               <Link href={link.href}>
                 {link.label}
@@ -69,14 +69,14 @@ export default function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-white/40 backdrop-blur-md shadow-md border-b border-white/20 dark:border-[#1e293b]/40"
+            className="md:hidden bg-white/40 backdrop-blur-md shadow-md border-b border-white/20 "
           >
             <nav className="flex flex-col items-center gap-4 py-5 text-lg font-medium">
               {navLinks.map((link) => (
                 <motion.div
                   key={link.href}
                   whileHover={{ x: 5, scale: 1.05 }}
-                  className="relative text-gray-700 dark:text-gray-200 group w-full text-center"
+                  className="relative text-gray-700  group w-full text-center"
                 >
                   <Link href={link.href} onClick={() => setIsOpen(false)}>
                     {link.label}

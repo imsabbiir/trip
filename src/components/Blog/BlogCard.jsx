@@ -7,7 +7,7 @@ function BlogCard({ blog }) {
   return (
     <div
       
-      className="relative bg-white dark:bg-[#1e1e28] shadow-md hover:shadow-2xl transition-all duration-500 rounded-2xl overflow-hidden group border border-gray-100 dark:border-[#2c2c38]"
+      className="relative bg-white  shadow-md hover:shadow-2xl transition-all duration-500 rounded-2xl overflow-hidden group border border-gray-100 "
     >
       {/* Image Section */}
       <div className="relative w-full h-[250px] overflow-hidden">
@@ -30,7 +30,7 @@ function BlogCard({ blog }) {
 
       {/* Content Section */}
       <div className="p-5 flex flex-col justify-between">
-        <p className="text-sm text-gray-600 dark:text-gray-300 mt-2 line-clamp-3 text-justify mb-5 leading-relaxed">
+        <p className="text-sm text-gray-600  mt-2 line-clamp-3 text-justify mb-5 leading-relaxed">
           {blog?.content}
         </p>
 

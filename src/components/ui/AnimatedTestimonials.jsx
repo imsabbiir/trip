@@ -99,14 +99,14 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
               ease: "easeInOut",
             }}
           >
-            <h3 className="text-2xl font-bold text-[#333] dark:text-white">
+            <h3 className="text-2xl font-bold text-[#333] ">
               {testimonials[active].name}
             </h3>
-            <p className="text-sm text-gray-500 dark:text-neutral-500">
+            <p className="text-sm text-gray-500 ">
               {testimonials[active].designation}
             </p>
 
-            <motion.p className="mt-8 text-lg text-gray-500 dark:text-neutral-300">
+            <motion.p className="mt-8 text-lg text-gray-500 ">
               <svg
                 className="w-10 h-10 mx-auto mb-3 text-[#48CAE4]"
                 aria-hidden="true"
@@ -146,13 +146,13 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
               onClick={handlePrev}
               className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-[#00B4D8] cursor-pointer"
             >
-              <IconArrowLeft className="h-5 w-5 text-white transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-400" />
+              <IconArrowLeft className="h-5 w-5 text-white transition-transform duration-300 group-hover/button:rotate-12 " />
             </button>
             <button
               onClick={handleNext}
               className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-[#00B4D8]  cursor-pointer"
             >
-              <IconArrowRight className="h-5 w-5 text-[#fff] transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400" />
+              <IconArrowRight className="h-5 w-5 text-[#fff] transition-transform duration-300 group-hover/button:-rotate-12 " />
             </button>
           </div>
         </div>

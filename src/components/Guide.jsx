@@ -45,16 +45,16 @@ export const guides = [
 
 export default function Guide() {
   return (
-    <section className="w-11/12 mx-auto py-20 font-sans text-gray-800 dark:text-gray-200">
+    <section className="w-11/12 mx-auto py-20 font-sans text-gray-800 ">
       {/* Header */}
       <div
        
         className="text-center mb-12"
       >
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white">
+        <h2 className="text-4xl font-bold text-gray-900 ">
           Meet Our Expert Guides
         </h2>
-        <p className="text-gray-500 dark:text-gray-400 mt-2">
+        <p className="text-gray-500  mt-2">
           Passionate professionals who make your journey unforgettable.
         </p>
       </div>
@@ -65,7 +65,7 @@ export default function Guide() {
           <div
             key={guide.id}
             
-            className="bg-gray-100 dark:bg-[#1e1e28] rounded-2xl p-6 shadow-lg hover:shadow-xl border border-gray-200/20 dark:border-gray-700/30"
+            className="bg-gray-100 rounded-2xl p-6 shadow-lg hover:shadow-xl border border-gray-200/20 "
           >
             <div className="relative w-full h-56 overflow-hidden rounded-xl">
               <img
@@ -76,13 +76,13 @@ export default function Guide() {
             </div>
 
             <div className="mt-5 space-y-1">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-xl font-semibold text-gray-900 ">
                 {guide.name}
               </h3>
               <p className="text-yellow-500 text-sm font-medium">
                 {guide.role}
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <p className="text-sm text-gray-500 ">
                 Experience: {guide.experience}
               </p>
               <div className="flex items-center gap-1 mt-1">
@@ -103,7 +103,7 @@ export default function Guide() {
               </div>
             </div>
 
-            <p className="mt-4 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+            <p className="mt-4 text-sm leading-relaxed text-gray-600 ">
               {guide.description}
             </p>
           </div>

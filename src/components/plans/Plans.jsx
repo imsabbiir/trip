@@ -20,10 +20,10 @@ export default async function Plans() {
       {/* Header */}
       <div className="mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
         <div>
-          <h2 className="font-bold text-3xl text-gray-900 dark:text-white">
+          <h2 className="font-bold text-3xl text-gray-900">
             Top Plans
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 mt-1">
+          <p className="text-gray-600">
             From Sajek to Sylhet, discover where your next journey will take you.
           </p>
         </div>

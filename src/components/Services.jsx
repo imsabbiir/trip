@@ -16,7 +16,7 @@ export default function Services() {
 
   const renderForm = () => {
     const commonInput =
-      "input-box bg-gray-50 dark:bg-[#242833] border border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-100";
+      "input-box bg-gray-50  border border-gray-300  text-gray-800 ";
     const btn =
       "bg-[#0077B6] hover:bg-[#0096C7] text-white font-medium py-3 px-6 rounded-lg transition";
 
@@ -117,14 +117,14 @@ export default function Services() {
   };
 
   return (
-    <section className="py-20 bg-[#F5F7FA] dark:bg-[#1B1E23]">
+    <section className="py-20 bg-[#F5F7FA] ">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 grid md:grid-cols-2 gap-12 items-start">
         {/* Left Section (Dynamic Form) */}
-        <div className="bg-white dark:bg-[#242833] p-8 rounded-2xl shadow-md border border-[#CBD5E1] dark:border-gray-700">
+        <div className="bg-white  p-8 rounded-2xl shadow-md border border-[#CBD5E1] ">
           {/* Mobile Dropdown */}
           <div className="md:hidden mb-6">
             <select
-              className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-[#242833] text-gray-800 dark:text-gray-100"
+              className="w-full p-3 rounded-lg border border-gray-300  bg-white ] text-gray-800 "
               value={activeTab}
               onChange={(e) => setActiveTab(e.target.value)}
             >
@@ -149,7 +149,7 @@ export default function Services() {
                 ${
                   activeTab === tab.id
                     ? "bg-[#0077B6] text-white border-[#0077B6] shadow-lg"
-                    : "bg-white dark:bg-[#242833] text-gray-800 dark:text-gray-200 border-[#CBD5E1] dark:border-gray-700 hover:bg-[#48CAE4]/10"
+                    : "bg-white  text-gray-800  border-[#CBD5E1] hover:bg-[#48CAE4]/10"
                 }`}
             >
               <span className="text-xl">{tab.icon}</span>

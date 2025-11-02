@@ -12,7 +12,7 @@ export default function HeroSection() {
         alt="hero image"
         width={2500}
         height={2500}
-        className="w-full h-screen absolute top-0 left-0"
+        className="w-full h-screen object-cover absolute top-0 left-0"
       />
       {/* Overlay Gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#000000e0] via-[#000000a8] to-transparent" />
